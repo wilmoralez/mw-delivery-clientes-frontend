@@ -7,7 +7,7 @@ function startSlider() {
 	imagenes[imagenActual].classList.add('active');
 
 	interval = setInterval(() => {
-		imagenes[imagenActual].classList.remove('active');
+		imagenes[imagenActual].classList.remove('active');//
 		imagenActual++;
 		if (imagenActual >= imagenes.length) {
 			imagenActual = 0;

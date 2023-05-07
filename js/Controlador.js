@@ -4,7 +4,7 @@ function mostrarSeccion(idSeccion) {
     var secciones = document.getElementsByTagName('section');
     for (var i = 0; i < secciones.length; i++) {
        
-      secciones[i].style.display = 'none';
+      secciones[i].style.display = 'none';//
       console.log(i);
      
     }

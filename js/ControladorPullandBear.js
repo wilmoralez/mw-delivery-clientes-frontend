@@ -7,7 +7,7 @@ ropa = [
         id:1,
         nombre:'Vestido largo tie-dye',
         precio:975, 
-        imagen: 'img/rmpb1.jpg'
+        imagen: 'img/rmpb1.jpg'//
     },
 
     {
